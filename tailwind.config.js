@@ -9,7 +9,10 @@ module.exports = {
         "CircularSTD" :["CircularSTD"]
       },
       colors : {
-
+      },
+      screens: {
+        'FHD': '2560px',
+        // => @media (min-width: 640px) { ... }
       }
     },
   },
